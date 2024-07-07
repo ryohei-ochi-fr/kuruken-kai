@@ -71,8 +71,12 @@ hub browse
 
 ## first commit
 
+`readme.md`を作成してからコミットする
+
 ```powershell
 git add .
+git status
+
 git commit -m "first commit"
 git status
 
